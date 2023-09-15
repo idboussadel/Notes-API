@@ -9,52 +9,52 @@ Developed with :
 ## Endpoints : URL( " /api/v1" ) :
 ### For the Notes :
 * Get a list of all notes : <br>
-  URL: /notes <br>
-  Method: GET
+&nbsp URL: /notes <br>
+&nbsp Method: GET
   
 * Create a Note : <br>
--- URL: /notes <br>
--- Method: POST
+&nbsp URL: /notes <br>
+&nbsp Method: POST
     
 * Get a specific note by ID : <br>
--- URL: /notes/:id <br>
--- Method: GET
+&nbsp URL: /notes/:id <br>
+&nbsp Method: GET
 
 * Update the title of a note :<br>
--- URL: /notes/:id/title <br>
--- Method: PATCH
+&nbsp URL: /notes/:id/title <br>
+&nbsp Method: PATCH
 
 * Update the content of a note :<br>
--- URL: /notes/:id/content <br>
--- Method: PATCH
+&nbsp URL: /notes/:id/content <br>
+&nbsp Method: PATCH
 
 * Delete a specific note by ID :<br>
--- URL: /notes/:id__
--- Method: DELETE
+&nbsp URL: /notes/:id__
+&nbsp Method: DELETE
 
 *  Filter notes by a single ta :<br>
--- URL: /notes/filter-by-tag <br>
--- Method: GET
+&nbsp URL: /notes/filter-by-tag <br>
+&nbsp Method: GET
 
 ### For the Tags : URL( " /api/v1 " ) :
 * Get a list of all tags:<br>
--- URL: /tags <br>
--- Method: GET
+&nbsp URL: /tags <br>
+&nbsp Method: GET
   
 * Create a new tag :<br>
--- URL: /tags <br>
--- Method: POST
+&nbsp URL: /tags <br>
+&nbsp Method: POST
     
 * Get a specific tag by ID :<br>
--- URL: /tags/:id <br>
--- Method: GET
+&nbsp URL: /tags/:id <br>
+&nbsp Method: GET
 
 * Update the name of a tag :<br>
--- URL: /tags/:id <br>
--- Method: PATCH
+&nbsp URL: /tags/:id <br>
+&nbsp Method: PATCH
 
 * Delete a specific tag by ID :<br>
--- URL: /tags/:id <br>
--- Method: DELETE
+&nbsp URL: /tags/:id <br>
+&nbsp Method: DELETE
 
 ## Error Handling :
