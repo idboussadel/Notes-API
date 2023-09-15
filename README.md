@@ -8,32 +8,32 @@ Developed with :
 
 ## Endpoints : URL( " /api/v1" ) :
 ### For the Notes :
-* Get a list of all notes :__
--- URL: /notes__
+* Get a list of all notes :<br>
+-- URL: /notes
 -- Method: GET
   
-* Create a Note :__
--- URL: /notes__
+* Create a Note :
+-- URL: /notes
 -- Method: POST
     
-* Get a specific note by ID :__
+* Get a specific note by ID :
 -- URL: /notes/:id__
 -- Method: GET
 
-* Update the title of a note :__
--- URL: /notes/:id/title__
+* Update the title of a note :
+-- URL: /notes/:id/title
 -- Method: PATCH
 
-* Update the content of a note :__
--- URL: /notes/:id/content__
+* Update the content of a note :
+-- URL: /notes/:id/content
 -- Method: PATCH
 
 * Delete a specific note by ID :
 -- URL: /notes/:id__
 -- Method: DELETE
 
-*  Filter notes by a single ta :__
--- URL: /notes/filter-by-tag__
+*  Filter notes by a single ta :
+-- URL: /notes/filter-by-tag
 -- Method: GET
 
 ### For the Tags : URL( " /api/v1 " ) :
