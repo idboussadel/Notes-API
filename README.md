@@ -6,13 +6,53 @@ Developed with :
 * language : NodeJs(Express)
 * database : MongoDB(Mongoose)
 
-## Endpoints :
-- For the Notes : URL( " /api/v1/notes " ) :
+## Endpoints : URL( " /api/v1" ) :
+### For the Notes :
 * Get a list of all notes :
 -- URL: /notes
 -- Method: GET
--- Response:
-      Status: 200 OK
-      Body: An array of notes.
+  
+* Create a Note :
+-- URL: /notes
+-- Method: POST
+    
+* Get a specific note by ID :
+-- URL: /notes/:id
+-- Method: GET
+
+* Update the title of a note :
+-- URL: /notes/:id/title
+-- Method: PATCH
+
+* Update the content of a note :
+-- URL: /notes/:id/content
+-- Method: PATCH
+
+* Delete a specific note by ID :
+-- URL: /notes/:id
+-- Method: DELETE
+
+*  Filter notes by a single ta :
+-- URL: /notes/filter-by-tag
+-- Method: GET
+
+### For the Tags : URL( " /api/v1/tags " ) :
+* Get a list of all notes :
+-- URL: /notes
+-- Method: GET
+  
+* Create a Note :
+-- URL: /notes
+-- Method: POST
+    
+* Get a specific note by ID :
+-- URL: /notes/:id
+-- Method: GET
+
+* Update the title of a note :
+-- URL: /notes/:id/title
+-- Method: PATCH
+
+
 
 ## Error Handling :
