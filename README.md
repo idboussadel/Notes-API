@@ -8,24 +8,24 @@ Developed with :
 
 ## Endpoints : URL( " /api/v1" ) :
 ### For the Notes :
-* Get a list of all notes :<br>
--- URL: /notes
+* Get a list of all notes : <br>
+-- URL: /notes <br>
 -- Method: GET
   
-* Create a Note :<br>
--- URL: /notes
+* Create a Note : <br>
+-- URL: /notes <br>
 -- Method: POST
     
-* Get a specific note by ID :<br>
--- URL: /notes/:id__
+* Get a specific note by ID : <br>
+-- URL: /notes/:id <br>
 -- Method: GET
 
 * Update the title of a note :<br>
--- URL: /notes/:id/title
+-- URL: /notes/:id/title <br>
 -- Method: PATCH
 
 * Update the content of a note :<br>
--- URL: /notes/:id/content
+-- URL: /notes/:id/content <br>
 -- Method: PATCH
 
 * Delete a specific note by ID :<br>
@@ -33,28 +33,28 @@ Developed with :
 -- Method: DELETE
 
 *  Filter notes by a single ta :<br>
--- URL: /notes/filter-by-tag
+-- URL: /notes/filter-by-tag <br>
 -- Method: GET
 
 ### For the Tags : URL( " /api/v1 " ) :
 * Get a list of all tags:<br>
--- URL: /tags
+-- URL: /tags <br>
 -- Method: GET
   
 * Create a new tag :<br>
--- URL: /tags
+-- URL: /tags <br>
 -- Method: POST
     
 * Get a specific tag by ID :<br>
--- URL: /tags/:id
+-- URL: /tags/:id <br>
 -- Method: GET
 
 * Update the name of a tag :<br>
--- URL: /tags/:id
+-- URL: /tags/:id <br>
 -- Method: PATCH
 
 * Delete a specific tag by ID :<br>
--- URL: /tags/:id
+-- URL: /tags/:id <br>
 -- Method: DELETE
 
 ## Error Handling :
