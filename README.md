@@ -37,7 +37,7 @@ Developed with :
  URL: /notes/filter-by-tag <br>
  Method: GET
 
-### For the Tags : URL( " /api/v1 " ) :
+### For the Tags :
 * Get a list of all tags:<br>
 &nbsp URL: /tags <br>
 &nbsp Method: GET
