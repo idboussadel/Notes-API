@@ -9,8 +9,8 @@ Developed with :
 ## Endpoints : URL( " /api/v1" ) :
 ### For the Notes :
 * Get a list of all notes : <br>
-URL: /notes <br>
-Method: GET
+  URL: /notes <br>
+  Method: GET
   
 * Create a Note : <br>
 -- URL: /notes <br>
