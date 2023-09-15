@@ -101,8 +101,9 @@ Error responses are designed to be user-friendly and less detailed to ensure a b
   "message": "Invalid input data. the content is required"
 }
 ```
-Exemple for the test in Postman :
+
+### Exemple for the test in Postman :
 ![image](https://github.com/Devai-coding/Notes-API/assets/113947156/d51bc67a-3d40-43ef-bffb-a6664c4fd55c)
 
-### Finaly :
+## Finaly :
 As we introduce Version 1 of our API, we are committed to ongoing enhancement and refinement. Your feedback is crucial—whether you encounter bugs, need assistance, or have feature suggestions, we welcome your input. Submit issues or requests on our GitHub repository or contact us directly through our support channels.
