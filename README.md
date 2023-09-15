@@ -12,48 +12,48 @@ Developed with :
 -- URL: /notes
 -- Method: GET
   
-* Create a Note :
+* Create a Note :<br>
 -- URL: /notes
 -- Method: POST
     
-* Get a specific note by ID :
+* Get a specific note by ID :<br>
 -- URL: /notes/:id__
 -- Method: GET
 
-* Update the title of a note :
+* Update the title of a note :<br>
 -- URL: /notes/:id/title
 -- Method: PATCH
 
-* Update the content of a note :
+* Update the content of a note :<br>
 -- URL: /notes/:id/content
 -- Method: PATCH
 
-* Delete a specific note by ID :
+* Delete a specific note by ID :<br>
 -- URL: /notes/:id__
 -- Method: DELETE
 
-*  Filter notes by a single ta :
+*  Filter notes by a single ta :<br>
 -- URL: /notes/filter-by-tag
 -- Method: GET
 
 ### For the Tags : URL( " /api/v1 " ) :
-* Get a list of all tags:
+* Get a list of all tags:<br>
 -- URL: /tags
 -- Method: GET
   
-* Create a new tag :
+* Create a new tag :<br>
 -- URL: /tags
 -- Method: POST
     
-* Get a specific tag by ID :
+* Get a specific tag by ID :<br>
 -- URL: /tags/:id
 -- Method: GET
 
-* Update the name of a tag :
+* Update the name of a tag :<br>
 -- URL: /tags/:id
 -- Method: PATCH
 
-* Delete a specific tag by ID :
+* Delete a specific tag by ID :<br>
 -- URL: /tags/:id
 -- Method: DELETE
 
